@@ -170,7 +170,7 @@ const App = () => {
                             {reset}
                         </Anchor>
                     </Text>
-                    <Group position="center" className={classes.buttons}>
+                    <Group position="center" className={classes.buttons} spacing="sm">
                         {days.map((day) => (
                             <Button
                                 key={day.value}
