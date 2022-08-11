@@ -8,7 +8,6 @@ specifiers:
   '@types/react-dom': ^18.0.6
   '@vitejs/plugin-react': ^2.0.0
   dayjs: ^1.11.4
-  dayjs-random: ^1.0.1
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: ^4.6.4
@@ -19,7 +18,6 @@ dependencies:
   '@mantine/core': 5.1.3_5gpo2c5i3lro5o7tq4rpjanw4e
   '@mantine/hooks': 5.1.3_react@18.2.0
   dayjs: 1.11.4
-  dayjs-random: 1.0.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -768,10 +766,6 @@ packages:
 
   /csstype/3.1.0:
     resolution: {integrity: sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==}
-
-  /dayjs-random/1.0.1:
-    resolution: {integrity: sha512-J6PL4LRnXgah/FPOXGeeePYShyRH779MzaNYKc70J/7tU0I35F1OBV5alke972zZ70grO9SZpASkhUHyHl/qZA==}
-    dev: false
 
   /dayjs/1.11.4:
     resolution: {integrity: sha512-Zj/lPM5hOvQ1Bf7uAvewDaUcsJoI6JmNqmHhHl3nyumwe0XHwt8sWdOVAPACJzCebL8gQCi+K49w7iKWnGwX9g==}
