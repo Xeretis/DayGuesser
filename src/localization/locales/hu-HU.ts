@@ -28,7 +28,7 @@ export const HuHuLang = {
         },
         {
             text: "Vasárnap",
-            value: 7,
+            value: 0,
         },
     ],
     correct: "Helyes",
