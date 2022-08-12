@@ -188,15 +188,17 @@ const App = () => {
                 <Box className={classes.rangeContainer}>
                     <NumberInput
                         value={range[0]}
-                        onChange={(val) => setRange([val!, range[1]])}
+                        onChange={(val) => setRange([val || range[0], range[1]])}
                         label={start}
                         min={1000}
+                        max={range[1]}
                         className={classes.rangeInput}
                     />
                     <NumberInput
                         value={range[1]}
-                        onChange={(val) => setRange([range[0], val!])}
+                        onChange={(val) => setRange([range[0], val || range[1]])}
                         label={end}
+                        min={range[0]}
                         max={9999}
                         className={classes.rangeInput}
                     />
