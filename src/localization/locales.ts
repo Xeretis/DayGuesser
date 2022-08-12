@@ -4,13 +4,11 @@ import { ILocale } from "./iLocale";
 
 const locales: ILocale[] = [
     {
-        id: "en-US",
         name: "English",
         lang: EnUsLang,
         translateCode: "en_US",
     },
     {
-        id: "hu-HU",
         name: "Magyar",
         lang: HuHuLang,
         translateCode: "hu_HU",
