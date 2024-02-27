@@ -35,6 +35,6 @@ export const HuHuLang = {
     incorrect: "Helytelen",
     reset: "Nullázás",
     previous: "Előző",
-    start: "Kező év",
+    start: "Kedző év",
     end: "Záró év",
 };
